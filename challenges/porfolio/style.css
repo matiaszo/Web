@@ -1,0 +1,169 @@
+body{
+    /* background-color: #0c243C; */
+    /* height: 100%; */
+    background-color: #0c243C;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c243C;
+    width: 100%;
+    height: 10vh;
+
+}
+*{
+    margin: 0px;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    height: 120vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    gap: 10%;
+    margin-right: 5%;
+}
+input{
+    border: none;
+    background-color: #113b64;
+    border-radius: 7px;
+    height: 30px;
+    font-size: 1em;
+}
+p {
+    font-size: 6rem;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 70px;
+}
+
+#pai2 {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    position: relative;
+    /* padding: 60px; */
+    margin-top: 150%;
+}
+
+#pai2 img{
+    width: 23%;
+    height: 380px;
+    border-radius: 50%;
+    border: solid 3px white;
+}
+
+
+#filho1, #filho2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#filho1 {
+    max-width: 95%;
+}
+
+#filho2 {
+    margin-left: 10%;
+    margin-top: 6%;
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 42%;
+}
+
+
+.second{
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.specifics{
+    display: flex;
+    border-radius: 20px;
+    width: 80%;
+    gap: 3%;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.specifics img{
+    background-color: #173e66;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    height:250px;
+}
+
+
+.third{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: aliceblue;
+    margin-top: 15%;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    background-color: #173e66;
+    width: 80%;
+    justify-content: space-around;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 20px;
+    flex-direction: row;
+    
+}
+.projects img{
+    width: 30%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.fourth{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.row a{
+    text-decoration: none;
+    color: black;
+}

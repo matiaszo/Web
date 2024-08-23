@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(65, 204, 242);
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+p{
+    color: brown;
+}
+main{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

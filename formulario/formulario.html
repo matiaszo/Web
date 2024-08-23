@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+</head>
+
+<br>
+<header>
+    <h1>Formulario</h1>
+</header>
+<body>
+    <form>
+        <input type="text" name="Nome" id="Texto" placeholder="Escreva aqui">
+    </form>
+    <form>
+        <input type="button" name="Botao" value="OK">
+    </form>
+    <form>
+        <input type="datetime-local">
+    </form>
+    <form>
+        <input type="email">
+    </form>
+    <form>
+        <input type="number">
+    </form>
+    <form>
+        <input type="password" placeholder="senha: min 8 digitos">
+    </form>
+    <form>
+        <input type="range" min="0" max="500" step="5" value="0">
+    </form>
+    <form>
+        <input type="radio" name="escolha" value="1" checked required>opcao1
+        <br>
+        <input type="radio" name="escolha" value="2">opcao2
+        <br>
+        <input type="radio" name="escolha" value="3">opcao3
+    </form>
+    <form>
+        <input type="checkbox" name="opcao" value="1" checked> escolha1
+        <input type="checkbox" name="opcao" value="2"> escolha2
+        <input type="checkbox" name="opcao" value="3"> escolha3
+    </form>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" placeholder="Digite seu nome">
+        <label for="age">Idade:</label>
+        <input type="text" name="age" placeholder="Digite sua idade">
+
+    </form>
+    <form>
+        <input type="tel" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}">
+    </form>
+
+    <select name="Cidades">
+        <option value="Sp">Sao Paulo</option>
+        <option value="Pr">Curitiba</option>
+        <option value="Pa">Porto Alegre</option>
+        <option value="Bh">Belo Horizonte</option>
+        <option value="Rj">Rio de Janeiro</option>
+    </select>
+    <form>
+        <label for="textarea">Digite alguma observação&amp;</label>
+        <textarea></textarea>
+        <br>
+        <br>
+
+    </form>
+    <form>
+        <fieldset>
+        <br>
+            <legend>Pizzas</legend>
+            <input type="radio" name="opcao" value="1" checked> Strogonoff<br>
+            <input type="radio" name="opcao" value="2" checked> Frango Catupiry<br>
+            <input type="radio" name="opcao" value="3" checked> Italiana<br>
+        </fieldset>
+
+        <details>
+            <summary>Titulo do details</summary>
+            <p><h3>Strogonoff</h3>
+            Grande texto que voce pode colocar aqui</p>
+            <p> <h3>Outra</h3>
+            Outro grandissimo texto</p>
+        </details>
+
+        <video width="200" height="150" autoplay muted loop>
+            <source src="/El primo dançando Bara bara bere bere bara bara.mp4">
+        </video>
+    </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.2413441015624!2d-49.21271372373232!3d-25.46361543422439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5974facd857%3A0x49369f8ffcbac279!2sTexas%20BBQ%20(Burgers%2C%20Carnes%2C%20Por%C3%A7%C3%B5es%20e%20Chopp)!5e0!3m2!1spt-BR!2sbr!4v1722859287371!5m2!1spt-BR!2sbr" width="199" height="151" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>

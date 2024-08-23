@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:linear-gradient(purple, rgb(169, 36, 196));
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-right: 2%;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.midle{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+    height: 650px;
+    margin-top: 3%;
+
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 600px;
+    gap: 3%;
+    opacity: 85%;
+}
+
+.image:hover{
+    scale: 1.1;
+    opacity: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

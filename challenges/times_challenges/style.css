@@ -1,0 +1,27 @@
+.image{
+    width: 80px;
+}
+
+.tabela{
+    display: flex;
+    justify-content: column;
+    gap: 85px;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}

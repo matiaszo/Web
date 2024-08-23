@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.filmes{
+    display: flex;
+    justify-content: column;
+    gap: 85px;
+    margin-top: 50px;
+}

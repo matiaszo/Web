@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+    flex-direction: column;
+    width: 70%;
+    height: 100px;
+    font-family: "Grey Qo", cursive;
+    font-style: oblique;
+    text-align: center;
+}
+
+article{
+    position: fixed;
+    background-color: brown;
+    left: 20px;
+    top: 50px;
+    width: 70%;
+    height: 100px;
+    z-index: 4;
+}
+
+.verde{
+    position: fixed;
+    background-color: green;
+    left: 20px;
+    top: 50px;
+    width: 70%;
+    height: 100px; 
+    z-index: 3;
+}
+
+.outra{
+    display: flex;
+    justify-content: end;
+    font-size: 50px;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+main{
+    background-color: rgb(1, 255, 170);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color:transparent;
+    text-align: center; 
+}
+.ajuste{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 1.5rem;
+}
