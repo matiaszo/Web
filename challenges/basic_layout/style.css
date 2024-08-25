@@ -10,8 +10,7 @@ header{
 nav{
     margin-top: 2%;
     background-color: #3CE87A;
-    /* position: fixed; */
-    width: 90%;
+        width: 90%;
     height: 30px;
 }
 
